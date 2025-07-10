@@ -1,0 +1,14 @@
+k8s commands
+
+to view pods : kubectl get pods
+to view deployments: kubectl get deployments
+to view configmaps: kubectl get cm
+to view secrets: kubectl get secrets
+to view replicasets : kubectl get replicasets
+
+to view namespace: kubectl get namespace
+to view hpa : kubectl get hpa
+
+to views logs : kubectl get logs pod/podname
+to view services : kubectl get svc
+

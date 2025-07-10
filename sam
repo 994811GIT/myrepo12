@@ -1,0 +1,6 @@
+docker commands:
+to view containers: docker ps
+to view all containers : docker ps -a
+to view images : docker images
+volumes : docker volume ls
+networks: docker network ls
