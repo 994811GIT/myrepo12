@@ -4,3 +4,7 @@ to view all containers : docker ps -a
 to view images : docker images
 volumes : docker volume ls
 networks: docker network ls
+to remove all the containers : docker container prune -f or docker remove $(docker ps -a)
+to removes images : docker image prune -y or docker rmi $(docker images)
+to remove volumes : docker volume remove volume_name
+to clean all the system : docker system prune -f
