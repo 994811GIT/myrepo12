@@ -1,0 +1,8 @@
+to view git commits - git log
+git add .
+git commit -m "commit message"
+git fetch
+git pull
+git push
+git rebase
+git merge
