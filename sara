@@ -5,3 +5,5 @@ to view deployments: kubectl get deployments
 to view configmaps: kubectl get cm
 to view secrets: kubectl get secrets
 to view replicasets : kubectl get replicasets
+to view namespace: kubectl get namespace
+to view hpa : kubectl get hpa
