@@ -4,3 +4,7 @@ to view all containers : docker ps -a
 to view images : docker images
 volumes : docker volume ls
 networks: docker network ls
+to remove containers: docker rm ($ docker ps)
+to remove images: docker rm(docker images)
+docker-compose up -d
+docker-compose down
