@@ -8,3 +8,13 @@ to remove all the containers : docker container prune -f or docker remove $(dock
 to removes images : docker image prune -y or docker rmi $(docker images)
 to remove volumes : docker volume remove volume_name
 to clean all the system : docker system prune -f
+Dockerfile components:
+FROM
+LABEL
+WORKDIR
+COPY
+RUN
+CMD
+ENTRYPOINT
+VAR
+ARG
